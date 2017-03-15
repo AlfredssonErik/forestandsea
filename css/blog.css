@@ -235,12 +235,14 @@ h6, .h6 {
 }
 .blog-archive a{
   font-family: 'Raleway';
+  color: #517fa4;
 }
 .blog-elsewhere h4{
   font-family: 'Open Sans';
 }
 .blog-elsewhere a{
   font-family: 'Raleway';
+  color: #517fa4;
 }
 
 /* Pagination */
@@ -315,14 +317,23 @@ h6, .h6 {
 
 .blog-footer {
   font-family: 'Raleway';
+  font-size: 1.2em;
   padding: 40px 0;
-  color: #999;
   text-align: center;
-  background-color: #f9f9f9;
+  color: white;
+  background-color: #517fa4;
+  opacity: 0.9;
   border-top: 1px solid #e5e5e5;
+}
+.blog-footer > p > a{
+  color:white;
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
+}
+.blog-footer p:last-child a:last-child {
+  margin-bottom: 0;
+  border-bottom: 1px solid white;
 }
 
 /*
@@ -344,4 +355,8 @@ margin-bottom: 5px !important;
 border-radius: 2px;
 }
 .sbi_follow_btn{width: 100%; margin-left: 1px !important;}
-.sbi_follow_btn a{font-family: 'Raleway';width: 98%;}
+.sbi_follow_btn a{font-family: 'Raleway';width: 98%; opacity: 0.9;}
+
+#sbi_load > a{
+  margin: 0 0 2px 0 !important;
+}
